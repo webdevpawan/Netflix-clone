@@ -40,7 +40,6 @@ function Home() {
   const [popularMovies, setpopularMovies] = useState([])
   const [topRatedMovies, settopRatedMovies] = useState([])
   const [genres, setgenres] = useState([])
-  const [loading, setLoading] = useState(true)
 
 
   useEffect(() => {
